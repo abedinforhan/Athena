@@ -1,2 +1,36 @@
+<<<<<<< HEAD
 .app {
 }
+=======
+body{
+      background-color: #FAFFFD;
+}
+
+p{
+      font-family: 'Montserrat', sans-serif;
+}
+
+section{
+      background-color: #FAFFFD;
+      padding: 90px 10px 0;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+}
+    .section-title{
+      font-weight: 600;
+      font-size: 45px;
+      font-family: 'Yeseva One', cursive;
+}
+    @media screen and (max-width: 768px){
+      .section-title{
+        font-size: 35px;
+      }
+}
+    @media screen and (max-width: 450px){
+      .section-title{
+        font-size: 27px;
+      }
+}
+>>>>>>> ab7d5af1587e4219b21215fd8be120a3cd723d2a
