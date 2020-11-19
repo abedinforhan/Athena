@@ -1,0 +1,64 @@
+.priceCard {
+  padding: 20px 0px;
+  margin: 7% 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+}
+
+.priceCard h1 {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.priceCard p {
+  font-weight: 400;
+  font-size: 2rem;
+}
+.item-before-line {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.item-before-line::after {
+  content: "";
+  border-bottom: 1px solid#4cced3;
+  width: 160%;
+  margin-top: 10px;
+}
+
+.priceCard:hover {
+  border: 1px solid #4cced3;
+  transition: 0.5s ease;
+}
+
+.priceCard:hover .priceCard__btn {
+  visibility: visible;
+}
+
+.priceCard:hover .item-before-line::after {
+  visibility: hidden;
+}
+.priceCard > * {
+  margin-top: 4px;
+}
+
+.priceCard__btn {
+  margin-top: 2rem;
+  background: linear-gradient(to right, #4cced3 0%, #31db86 100%);
+  width: 50%;
+  padding: 15px 10px;
+  font-weight: 500;
+  color: #fff;
+  border-radius: 30px 0px;
+  border: none;
+  font-size: 1rem;
+  /* display: none; */
+  visibility: hidden;
+}
+
+.priceCard__btn :focus {
+  border: none;
+  outline: none;
+}

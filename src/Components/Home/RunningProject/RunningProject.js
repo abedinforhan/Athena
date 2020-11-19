@@ -1,5 +1,5 @@
 import React from 'react';
-import projectImg from '../../../images/project-img.png'
+import projectImg from '../../../Images/project-img.png';
 import './RunningProject.css';
 
 const RunningProject = () => {
