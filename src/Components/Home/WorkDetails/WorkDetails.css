@@ -1,15 +1,30 @@
-.info-cards{
-      padding: 20px 25px;
-      margin: 10px;
-      border-radius: 50px 0;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
+.workDetails {
+  background-image: url("../../../Images//path.png");
+  background-repeat: no-repeat;
+  background-position: right center;
+  margin-top: 6rem;
 }
 
-.info-cards:hover{
-      border-radius: 50px 0;
-      background-color: #fff;
-      box-shadow: 10px 10px 40px #9df0e1e1;
+.info-cards {
+  padding: 20px 25px;
+  margin: 10px;
+  border-radius: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
+
+.info-card-item {
+  padding: 20px 0px;
+}
+
+.info-card-item:hover {
+  border-radius: 50px 0;
+  background-color: #fff;
+  box-shadow: 10px 10px 40px #9df0e1e1;
+}
+
+/* .info-cards:hover{
+    
+} */

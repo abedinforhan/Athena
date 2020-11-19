@@ -1,0 +1,11 @@
+.servicePrice {
+  background-image: url("../../../Images/team-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  background-position: left -945px bottom -100px;
+}
+.servicePrice h2 {
+  font-weight: bold;
+  font-size: 2.6rem;
+}

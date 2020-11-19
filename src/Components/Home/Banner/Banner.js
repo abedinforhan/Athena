@@ -1,10 +1,11 @@
 import React from 'react';
+import bannerImg from '../../../Images/banner-img.png';
 import './Banner.css';
-import bannerImg from '../../../images/banner-img.png';
 
 const Banner = () => {
       return (
-           <section className = "container mt-5">
+           <section className = "banner container mt-5">
+                
                   <div className="row">
                         <div className ="col-sm-6 col-md-4 offset-md-2 col-lg-6 offset-lg-0 banner__texts">
                               <h1>Florence <br/> agency</h1>
