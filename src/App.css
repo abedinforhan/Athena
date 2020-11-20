@@ -2,19 +2,23 @@ body {
   background-color: #fafffd;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 p {
   font-family: "Montserrat", sans-serif;
   font-size: 1.5rem;
 }
-h1{
+h1 {
   font-size: 6rem;
-  font-family: 'Yeseva One', cursive;
+  font-family: "Yeseva One", cursive;
 }
-h2{
+h2 {
   font-size: 3rem;
-  font-family: 'Yeseva One', cursive;
+  font-family: "Yeseva One", cursive;
 }
-h3{
+h3 {
   font-family: "Montserrat", sans-serif;
   font-size: 2rem;
   font-weight: bold;

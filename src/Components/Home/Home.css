@@ -1,8 +1,4 @@
 .home {
-  width: 100%;
   background-color: #fafffd;
-}
-
-input[type="text"] {
-  /* width: 30%; */
+  width: 100vw;
 }
