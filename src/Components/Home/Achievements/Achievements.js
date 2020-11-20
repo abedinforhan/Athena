@@ -57,11 +57,11 @@ const Achievements = () => {
                                                 alt=''
                                             />
                                         </div>
-                                        <div className='achievement-text col-6'>
-                                            <h4>{achievement.textLarge}</h4>
-                                            <small>
+                                        <div className='achievement-text col-6 text-center'>
+                                            <h3 className = "text-secondary">{achievement.textLarge}</h3>
+                                            <p className = "text-secondary">
                                                 {achievement.textSmall}
-                                            </small>
+                                            </p>
                                         </div>
                                     </div>
                                 </div>

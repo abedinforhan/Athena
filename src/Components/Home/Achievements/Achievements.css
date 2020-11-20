@@ -23,3 +23,10 @@
   .achievement-card:hover .achievement-text {
       color: white;
   }
+  .achievement-text{
+      font-size: 3rem;
+      font-weight: 700;
+  }
+  .achievement-text h3{
+      font-size: 4rem;
+  }
