@@ -1,4 +1,5 @@
 import React from 'react';
+import Achievements from './Achievements/Achievements';
 import Banner from './Banner/Banner';
 import Footer from './Footer/Footer';
 import Header from './Header/Header';
@@ -13,6 +14,7 @@ const Home = () => {
             <Banner></Banner>
             <WorkDetails></WorkDetails>
             <RunningProject></RunningProject>
+            <Achievements></Achievements>
             <ServicePrice/>
             <Footer/>
 
