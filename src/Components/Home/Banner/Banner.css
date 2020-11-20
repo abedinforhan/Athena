@@ -6,10 +6,21 @@
   background-position: -400px 180px;
   padding-bottom: 20px;
 }
-
-.banner__texts {
-  font-size: 1.5rem;
+section{
+  background-color: #FAFFFD;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
+.section-title{
+  font-weight: 600;
+  font-family: 'Yeseva One', cursive;
+}
+
+/* .banner__texts {
+  font-size: 1.5rem;
+} */
 .banner__button {
   background: linear-gradient(to right, #4cced3 0%, #31db86 100%);
   padding: 15px 35px;

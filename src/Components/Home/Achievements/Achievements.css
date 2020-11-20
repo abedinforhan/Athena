@@ -1,0 +1,25 @@
+.achievement-card {
+      background-color: #fff;
+      /* padding: 50px; */
+  }
+  .achievement-card:nth-child(1),
+  .achievement-card:nth-child(4) {
+      border: none;
+      border-radius: 0 60px;
+  }
+  .achievement-card:nth-child(2),
+  .achievement-card:nth-child(3) {
+      border: none;
+      border-radius: 60px 0;
+  }
+  .achievement-card:hover {
+      border: none;
+      background: linear-gradient(to right, #4cced3 0%, #31db86 100%);
+      cursor: pointer;
+  }
+  .achievement-card:hover img {
+      filter: brightness(1000%);
+  }
+  .achievement-card:hover .achievement-text {
+      color: white;
+  }
