@@ -12,11 +12,11 @@ const PriceCard = () => {
                 <p>Home page</p>
                 <p>No Inner Page</p>
                 <p>Asset File</p>
-                <p>Souce File</p>
+                <p>Source File</p>
                 <p>Free stock photos</p>
                 <p>10days free Support</p>
                 <p>24/7 Support</p>
-                <button class="priceCard__btn">Order Now</button>
+                <button class="priceCard__btn">Order now</button>
             </div>
         </div>
     );
