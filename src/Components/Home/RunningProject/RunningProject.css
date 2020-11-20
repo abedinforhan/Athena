@@ -1,14 +1,18 @@
-.project__button{
-      background: linear-gradient(to right, #4cced3 0%, #31db86 100%);
-      padding: 15px 35px;
-      margin: 40px 0 0 0 ;
-      font-weight: 500;
-      color: #fff;
-      border-radius: 30px 0px;
-      border: none;
-      font-size: 1rem;
+.runningProject {
+  width: 100vw;
 }
-.project__button:focus{
-      border: none;
-      outline: none;
+
+.project__button {
+  background: linear-gradient(to right, #4cced3 0%, #31db86 100%);
+  padding: 15px 35px;
+  margin: 40px 0 0 0;
+  font-weight: 500;
+  color: #fff;
+  border-radius: 30px 0px;
+  border: none;
+  font-size: 1rem;
+}
+.project__button:focus {
+  border: none;
+  outline: none;
 }

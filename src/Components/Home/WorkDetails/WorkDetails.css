@@ -2,6 +2,7 @@
   background-image: url("../../../Images/path.png");
   background-size: cover;
   background-position: top;
+  width: 100vw;
 }
 
 .info-cards {
