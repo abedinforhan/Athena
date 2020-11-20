@@ -1,21 +1,21 @@
 .banner {
-  background-image: url("../../../Images/studio.png");
+  background-image: url("../../../Images/banner-background.png");
 
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: -400px 180px;
-  padding-bottom: 20px;
+  background-position: bottom right;
+  margin: -30px;
 }
-section{
-  background-color: #FAFFFD;
+section {
+  background-color: #fafffd;
   margin-bottom: 10px;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
-.section-title{
+.section-title {
   font-weight: 600;
-  font-family: 'Yeseva One', cursive;
+  font-family: "Yeseva One", cursive;
 }
 
 /* .banner__texts {
