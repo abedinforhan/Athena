@@ -4,8 +4,8 @@ import './Banner.css';
 
 const Banner = () => {
       return (
-           <section className = "banner container mt-5">
-                
+           <div className = "banner  ">
+               <div className = "container my-5">
                   <div className="row">
                         <div className ="col-sm-6 col-md-4 offset-md-2 col-lg-6 offset-lg-0 banner__texts">
                               <h1 className = "section-title">Florence <br/> agency</h1>
@@ -16,10 +16,11 @@ const Banner = () => {
                         </div>
 
                         <div className ="col-12 col-md-6 col-lg-6">
-                              <img src={bannerImg} alt="Responsive image" className="img-fluid"/>
+                              <img className='mr-3' src={bannerImg} alt="Responsive image" className="img-fluid"/>
                         </div>
-                  </div>                  
-           </section>
+                  </div>       
+             </div>           
+       </div>
       );
 };
 

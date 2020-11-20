@@ -7,7 +7,7 @@ import './WorkDetails.css';
 
 const WorkDetails = () => {
       return (
-            <section className = "container">
+            <section className = "workDetails container">
                   <div>
                         <h2 className="section-name text-center">What we do</h2>
                         <p className="text-secondary text-center">Our main focus is to make the User Experience very <br/> simple and easy. Simplicity is our Strength.</p>

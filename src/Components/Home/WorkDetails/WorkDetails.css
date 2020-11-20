@@ -1,8 +1,7 @@
 .workDetails {
-  background-image: url("../../../Images//path.png");
-  background-repeat: no-repeat;
-  background-position: right center;
-  margin-top: 6rem;
+  background-image: url("../../../Images/path.png");
+  background-size: cover;
+  background-position: top;
 }
 
 .info-cards {
